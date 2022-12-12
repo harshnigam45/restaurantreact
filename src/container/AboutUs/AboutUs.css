@@ -1,0 +1,33 @@
+.app__aboutus {
+    position: relative;
+  }
+  .app__aboutus-content {
+    width: 100%;
+    z-index: 2;
+  }
+  .app__aboutus-content_about {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color:cadetblue;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .Harsh{
+    color:coral;
+  }
+  .custom__button_know__more{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 5px ;
+  }
+ 
+  .know__more:hover {
+    background: var(--color-golden);
+  }
+  
+
+  @media screen and (max-width: 920px) {
+    .app__aboutus-content {
+      flex-direction: column;
+    }
+  }

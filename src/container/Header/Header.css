@@ -1,0 +1,49 @@
+.app__header {
+    background-color: var(--color-black);
+  }
+  .app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04rem;
+    line-height: 117px;
+    font-size: 90px;
+    text-transform: uppercase;
+    width: 80%;
+  }
+  .app__wrapper_info{
+    color: cornsilk;
+    margin-top: 1rem;
+  }
+  .app__header-img img {
+    width: 60%;
+  }
+  .header__button:hover {
+    background-color: var(--color-golden);
+  }
+  .app__header-p {
+    margin: 1rem 0;
+    width: 75%;
+  }
+  @media screen and (max-width: 1280px) {
+    .app__header-h1 {
+      line-height: 70px;
+      font-size: 60px;
+      width: 100%;
+    }
+    .app__header-p {
+      margin: 1rem 0;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .app__header-h1 {
+      line-height: 50px;
+      font-size: 40px;
+      width: 100%;
+    }
+    .app__header-p {
+      margin: 1rem 0;
+      width: 100%;
+    }
+  }
+  
